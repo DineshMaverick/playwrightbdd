@@ -1,11 +1,9 @@
 import { Before, BeforeAll, AfterAll, After,AfterStep, setDefaultTimeout, ITestCaseHookParameter, Status, formatterHelpers, BeforeStep } from "@cucumber/cucumber";
-import { Browser } from "@playwright/test";
+import { chromium, Browser, Page } from "@playwright/test";
 import WebBrowser from "../manager/Browser";
 import fse from "fs-extra";
 import UIActions from "../playwright/actions/UIActions";
 import Log from "../logger/Log";
-import RESTRequest from "../playwright/API/RESTRequest";
-import SOAPRequest from "../playwright/API/SOAPRequest";
 import { buffer } from "stream/consumers";
 
 const timeInMin: number = 60 * 1000;
@@ -15,8 +13,8 @@ let page1;
 
 // launch the browser
 BeforeAll(async function () {
-    browser = await WebBrowser.launch();
-   
+    //browser = await chromium.launch();
+    browser = await chromium.launch({ headless: false });
   
   
 
@@ -48,8 +46,8 @@ Before(async function ({ pickle, gherkinDocument }: ITestCaseHookParameter) {
     await page1.getByPlaceholder('Password').press('Enter');
    
     this.web = new UIActions(this.page);
-    this.rest = new RESTRequest(this.page);
-    this.soap = new SOAPRequest();
+    //this.rest = new RESTRequest(this.page);
+    //this.soap = new SOAPRequest();
 });
 export {page1};
 

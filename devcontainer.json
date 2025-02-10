@@ -1,0 +1,7 @@
+{
+    "name": "Playwright Dev Container",
+    "context": "..",
+    "dockerFile": "../dockerFile",
+    "appPort": [3000]
+  }
+  

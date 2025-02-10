@@ -2,7 +2,7 @@ import UIActions from "../../support/playwright/actions/UIActions";
 import Assert from "../../support/playwright/asserts/Assert";
 import StringUtil from "../../support/utils/StringUtil";
 import {page1}  from "../../support/config/hooks";
-import Constants from "../constants/Constants";
+//import Constants from "../constants/Constants";
 import { test, expect,Browser,Page,chromium, BrowserContext} from '@playwright/test';
 import { Given, Then, When } from "@cucumber/cucumber";
 import { Interface } from "readline";
