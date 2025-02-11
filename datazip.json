@@ -1,0 +1,32 @@
+{
+    "addresses": [
+      {
+        "type": "home",
+        "address": {
+          "line1": "123 Main St",
+          "city": "Springfield",
+          "state": "IL",
+          "zipcode": "62701"
+        }
+      },
+      {
+        "type": "work",
+        "address": {
+          "line1": "456 Elm St",
+          "city": "Chicago",
+          "state": "IL",
+          "zipcode": "60601"
+        }
+      },
+      {
+        "type": "home",
+        "address": {
+          "line1": "789 Oak St",
+          "city": "Naperville",
+          "state": "IL",
+          "zipcode": "62901"
+        }
+      }
+    ]
+  }
+  

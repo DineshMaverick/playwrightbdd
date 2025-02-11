@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2587050134
+              "duration": 2897829784
             }
           },
           {
@@ -32,8 +32,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 52375731,
-              "error_message": "TypeError: The \"path\" argument must be of type string or an instance of Buffer or URL. Received undefined\n    at Object.unlinkSync (node:fs:1884:38)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:32)"
+              "duration": 536432,
+              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:44)"
             }
           }
         ],
@@ -57,7 +57,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2578438103
+              "duration": 2315012507
             }
           },
           {
@@ -95,8 +95,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 81741912,
-              "error_message": "TypeError: The \"path\" argument must be of type string or an instance of Buffer or URL. Received undefined\n    at Object.unlinkSync (node:fs:1884:38)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:32)"
+              "duration": 568772,
+              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:44)"
             }
           }
         ],
@@ -120,7 +120,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1910618920
+              "duration": 2097311789
             }
           },
           {
@@ -158,8 +158,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 48967972,
-              "error_message": "TypeError: The \"path\" argument must be of type string or an instance of Buffer or URL. Received undefined\n    at Object.unlinkSync (node:fs:1884:38)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:32)"
+              "duration": 352276,
+              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:44)"
             }
           }
         ],
@@ -183,7 +183,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1894333926
+              "duration": 2083399338
             }
           },
           {
@@ -221,8 +221,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 38389832,
-              "error_message": "TypeError: The \"path\" argument must be of type string or an instance of Buffer or URL. Received undefined\n    at Object.unlinkSync (node:fs:1884:38)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:32)"
+              "duration": 234166,
+              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:44)"
             }
           }
         ],
