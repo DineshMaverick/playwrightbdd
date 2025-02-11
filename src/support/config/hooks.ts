@@ -15,7 +15,19 @@ let page1;
 BeforeAll(async function () {
     //browser = await chromium.launch();
     browser = await chromium.launch({ headless: false });
-  
+    console.log('Initializing Xvfb...');
+    const { exec } = require('child_process');
+    exec('Xvfb :99 -ac -screen 0 1024x768x16 &', (error: any, stdout: any, stderr: any) => {
+      if (error) {
+        console.error(`Xvfb error: ${error.message}`);
+        return;
+      }
+      if (stderr) {
+        console.error(`Xvfb stderr: ${stderr}`);
+        return;
+      }
+      console.log(`Xvfb stdout: ${stdout}`);
+    });
   
 
 });

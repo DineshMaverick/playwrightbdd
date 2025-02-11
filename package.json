@@ -9,7 +9,8 @@
     "failed:test": "npx cucumber-js -p rerun",
     "report": "npx ts-node ./src/support/reporter/HTMLReporter.ts & npx ts-node ./src/support/reporter/CucumberReporter.ts",
     "qa:test": "cross-env TEST_ENV=qa npx cucumber-js -p runner & cross-env TEST_ENV=qa npx ts-node ./src/support/reporter/HTMLReporter.ts & cross-env TEST_ENV=qa npx ts-node ./src/support/reporter/CucumberReporter.ts",
-    "dry:test": "npx cucumber-js -p runner --dry-run"
+    "dry:test": "npx cucumber-js -p runner --dry-run",
+    "dev": "xvfb-run -a --server-args='-screen 0 1024x768x16' npx cucumber-js -p runner"
   },
   "keywords": [],
   "author": "Vinay Kumar B M",
@@ -49,7 +50,7 @@
     "oracledb": "5.3.0",
     "os": "0.1.2",
     "pdf-parse": "1.1.1",
-    "playwright": "^1.27.1",
+    "playwright": "^1.50.1",
     "randomstring": "1.2.2",
     "string-format": "2.0.0",
     "ts-node": "^10.9.1",
@@ -57,6 +58,7 @@
     "winston": "3.8.2",
     "xml-formatter": "2.6.1",
     "xmldom": "0.6.0",
-    "xpath": "0.0.32"
+    "xpath": "0.0.32",
+    "browserstack-local": "^1.0.0"
   }
 }

@@ -22,6 +22,8 @@ const config: PlaywrightTestConfig = {
       use: { browserName: 'webkit' },
     },
   ],
+  // Global BrowserStack configuration
+  globalSetup: './global-setup.ts',
 };
 
 export default config;
