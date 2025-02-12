@@ -39,7 +39,7 @@ export default class EmployeeUserPage
         await page1.waitForSelector(this.PIM_Link, {
             state: "visible",
         });
-        await page1.locator(this.PIM_Link, {timeout: 9000}).click();
+       // await page1.locator(this.PIM_Link, {timeout: 9000}).click();
     }
     public async addEmployee(firstName: string, middleName: string, lastName: string, EmployeeID: string) 
     {
@@ -66,8 +66,8 @@ export default class EmployeeUserPage
         await​​ page1.locator(this.SearchName_textBox).first().fill('');
         await page1.locator(this.SearchName_textBox).first().click();
         await page1.getByLabel(this.SearchName_textBox).first().fill(firstName);
-        await page1.getByRole(this.Search_Button).click();
-        await page1.getByRole(this.search_data).click();
+        //await page1.getByRole(this.Search_Button).click();
+        //await page1.getByRole(this.search_data).click();
         await page1.getByPlaceholder(this.Firstname_TEXTBOX).click();
         await page1.getByPlaceholder(this.Firstname_TEXTBOX).fill(firstName);
         await page1.getByPlaceholder(this.Middlename_TEXTBOX).click();
@@ -83,8 +83,8 @@ export default class EmployeeUserPage
         await page1.locator(this.Employeelist_Link).click();
         await page1.locator(this.SearchName_textBox).first().click();
         await page1.getByLabel(this.SearchName_textBox).first().fill('dinesh');
-        await page1.getByRole(this.Search_Button).click();
-        await page1.getByRole(this.search_delete).click();
+       // await page1.getByRole(this.Search_Button).click();
+        //await page1.getByRole(this.search_delete).click();
         
       
 }

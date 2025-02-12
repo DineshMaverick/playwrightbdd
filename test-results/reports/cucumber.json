@@ -4,241 +4,197 @@
     "elements": [
       {
         "description": "",
-        "id": "scenarios-related-to-add,edit-and-deletion-of-employees;login-into-the-application",
-        "keyword": "Scenario Outline",
-        "line": 13,
-        "name": "Login into the application",
+        "id": "browser-launch-and-navigation-on-browserstack;launch-chromium-browser-in-maximized-mode-and-navigate-to-a-url",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Launch Chromium browser in maximized mode and navigate to a URL",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2897829784
+              "duration": 947133144
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
-            "name": "user Launch the browser \"Admin\", \"admin123\"",
+            "line": 4,
+            "name": "user Launch the browser \"chromium\" in maximized mode and navigate to the URL \"https://example.com\"",
+            "match": {
+              "location": "src/web/steps/Url.ts:18"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
-            }
+              "status": "passed",
+              "duration": 803215491
+            },
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAAA6EAAAOdCAIAAAD7gfOrAAAAAXNSR0IArs4c6QAAEbtJREFUeJzt1sEJACAQwDB1/53PJQShJBP02T0zCwAAQs7vAAAAeMzjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1FyRNQo32vC/WgAAAABJRU5ErkJggg==",
+                "mime_type": "image/png"
+              }
+            ]
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 536432,
-              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:44)"
+              "duration": 222159865,
+              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:106:48)"
             }
           }
         ],
-        "tags": [
-          {
-            "name": "@login",
-            "line": 5
-          }
-        ],
+        "tags": [],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "scenarios-related-to-add,edit-and-deletion-of-employees;add-a-new-employee",
-        "keyword": "Scenario Outline",
-        "line": 23,
-        "name": "Add a new employee",
+        "id": "browser-launch-and-navigation-on-browserstack;launch-firefox-browser-in-maximized-mode-and-navigate-to-a-url",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Launch Firefox browser in maximized mode and navigate to a URL",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2315012507
+              "duration": 1257884894
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 17,
-            "name": "user navigate to PIM page",
+            "line": 7,
+            "name": "user Launch the browser \"firefox\" in maximized mode and navigate to the URL \"https://example.com\"",
+            "match": {
+              "location": "src/web/steps/Url.ts:18"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 18,
-            "name": "the user enters the employee details \"Dinesh7\", \"Babu\", \"Maverick\", \"0404\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "user should see able to enter all the fields \"The details are entered successfully\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
+              "status": "passed",
+              "duration": 865127060
+            },
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAAA6EAAAOdCAIAAAD7gfOrAAAAAXNSR0IArs4c6QAAEbtJREFUeJzt1sEJACAQwDB1/53PJQShJBP02T0zCwAAQs7vAAAAeMzjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1FyRNQo32vC/WgAAAABJRU5ErkJggg==",
+                "mime_type": "image/png"
+              }
+            ]
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 568772,
-              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:44)"
+              "duration": 280353841,
+              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:106:48)"
             }
           }
         ],
-        "tags": [
-          {
-            "name": "@employeecreation",
-            "line": 14
-          }
-        ],
+        "tags": [],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "scenarios-related-to-add,edit-and-deletion-of-employees;edit-a-new-employee",
-        "keyword": "Scenario Outline",
-        "line": 34,
-        "name": "Edit a new employee",
+        "id": "browser-launch-and-navigation-on-browserstack;launch-edge-browser-in-maximized-mode-and-navigate-to-a-url",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Launch Edge browser in maximized mode and navigate to a URL",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2097311789
+              "duration": 1593240695
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 28,
-            "name": "user navigate to PIM page for editing the employee",
+            "line": 10,
+            "name": "user Launch the browser \"edge\" in maximized mode and navigate to the URL \"https://example.com\"",
+            "match": {
+              "location": "src/web/steps/Url.ts:18"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 29,
-            "name": "the user edits the employee details \"Dinesh12\", \"Babu1\", \"Ganesan1\", \"0414\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 30,
-            "name": "user should see able to see the edited fields \"The details are edited  successfully\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
+              "status": "passed",
+              "duration": 7066559015
+            },
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAAA6EAAAOdCAIAAAD7gfOrAAAAAXNSR0IArs4c6QAAEbtJREFUeJzt1sEJACAQwDB1/53PJQShJBP02T0zCwAAQs7vAAAAeMzjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1FyRNQo32vC/WgAAAABJRU5ErkJggg==",
+                "mime_type": "image/png"
+              }
+            ]
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 352276,
-              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:44)"
+              "duration": 228126785,
+              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:106:48)"
             }
           }
         ],
-        "tags": [
-          {
-            "name": "@editemployee",
-            "line": 25
-          }
-        ],
+        "tags": [],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "scenarios-related-to-add,edit-and-deletion-of-employees;delete-a-new-employee",
-        "keyword": "Scenario Outline",
-        "line": 36,
-        "name": "Delete a new employee",
+        "id": "browser-launch-and-navigation-on-browserstack;launch-safari-browser-in-maximized-mode-and-navigate-to-a-url",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Launch Safari browser in maximized mode and navigate to a URL",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2083399338
+              "duration": 2538574072
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 38,
-            "name": "user navigate to PIM page for deleting the employee",
+            "line": 13,
+            "name": "user Launch the browser \"safari\" in maximized mode and navigate to the URL \"https://example.com\"",
+            "match": {
+              "location": "src/web/steps/Url.ts:18"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 39,
-            "name": "the user search the employee details delete the employee \"<firstName>\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 40,
-            "name": "user should see able to delete the employee \"The employee is deleted  successfully\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
+              "status": "passed",
+              "duration": 779547996
+            },
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAAA6EAAAOdCAIAAAD7gfOrAAAAAXNSR0IArs4c6QAAEbtJREFUeJzt1sEJACAQwDB1/53PJQShJBP02T0zCwAAQs7vAAAAeMzjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1HhcAABqPC4AADUeFwCAGo8LAECNxwUAoMbjAgBQ43EBAKjxuAAA1FyRNQo32vC/WgAAAABJRU5ErkJggg==",
+                "mime_type": "image/png"
+              }
+            ]
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 234166,
-              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:94:44)"
+              "duration": 270412812,
+              "error_message": "Error: Path is not available when connecting remotely. Use saveAs() to save a local copy.\n    at Video.path (/workspaces/playwrightbdd/node_modules/playwright-core/lib/client/video.js:39:31)\n    at World.<anonymous> (/workspaces/playwrightbdd/src/support/config/hooks.ts:106:48)"
             }
           }
         ],
-        "tags": [
-          {
-            "name": "@deletetemployee",
-            "line": 35
-          }
-        ],
+        "tags": [],
         "type": "scenario"
       }
     ],
-    "id": "scenarios-related-to-add,edit-and-deletion-of-employees",
-    "line": 2,
+    "id": "browser-launch-and-navigation-on-browserstack",
+    "line": 1,
     "keyword": "Feature",
-    "name": "Scenarios related to add,edit and deletion of employees",
+    "name": "Browser Launch and Navigation on BrowserStack",
     "tags": [],
     "uri": "features/web/Url.feature"
   }
